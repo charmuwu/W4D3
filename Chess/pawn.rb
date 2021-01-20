@@ -10,17 +10,20 @@ class Stepable < Piece
     def symbol
         @symbol
     end
-    def at_start_row?
-
-    end
     private 
+    def at_start_row?
+        #return false if moved
+    end
     def forward_dir
         #returns 1 or -1
     end
     def forward_steps
-
+        #if at_start_row?
+        #moves forward 1 or 2
+        #else
+        #moves forward 1
     end
     def side_attacks
-        
+        #find forward_dir, take diagonals of forward by 1, check if piece of color is different, then shovel into possible moves
     end
 end

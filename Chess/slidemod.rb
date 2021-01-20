@@ -14,6 +14,7 @@ module Slideable
     def moves 
 
     end
+    
     private 
     def move_dirs()
         #
