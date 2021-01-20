@@ -6,7 +6,7 @@ class Bishop < Piece
     
     def symbol
         '♝'.colorize(color)
-      end
+    end
     private
     def move_dirs
         #slides in diagonals

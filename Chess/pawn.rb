@@ -1,9 +1,7 @@
 require_relative "piece.rb"
 
 class Stepable < Piece
-    def initialize
-
-    end
+    
     def moves
         @moves
     end

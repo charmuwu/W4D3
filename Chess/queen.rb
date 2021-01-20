@@ -10,5 +10,6 @@ class Queen < Piece
     private
     def move_dirs
         #slides in all directions.
+        #uses #moves from slideable
     end
 end
