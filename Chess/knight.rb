@@ -4,8 +4,8 @@ require "stepmod.rb"
 class Knights < Piece
     include Stepable
 
-    def initialize
-
+    def symbol
+        '♞'.colorize(color)
     end
     protected
     def move_diffs

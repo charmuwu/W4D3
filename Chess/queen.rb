@@ -4,8 +4,8 @@ require "slidemod.rb"
 class Queen < Piece
     include Slideable
     
-    def initialize
-
+    def symbol
+        '♛'.colorize(color)
     end
     private
     def move_dirs

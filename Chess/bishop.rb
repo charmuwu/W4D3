@@ -4,9 +4,9 @@ require "slidemod.rb"
 class Bishop < Piece
     include Slideable
     
-    def initialize
-
-    end
+    def symbol
+        '♝'.colorize(color)
+      end
     private
     def move_dirs
         #slides in diagonals
