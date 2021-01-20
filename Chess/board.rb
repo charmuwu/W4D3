@@ -5,15 +5,16 @@ class Board
     end
 
     def [](pos)
-
+        x,y = pos
+        @board[x,y]
     end
 
     def []=(pos, value)
-
+        @board[pos] = value
     end
 
     def move_piece(color, start_pos, end_pos)
-
+        
     end
     
     private

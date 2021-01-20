@@ -1,5 +1,5 @@
 require_relative "piece.rb"
 
-class Slideable < Piece
+class Bishop < Piece
     
 end

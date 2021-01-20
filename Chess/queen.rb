@@ -1,5 +1,5 @@
 require_relative "piece.rb"
 
-class Knights < Piece
+class Queen < Piece
     
 end
